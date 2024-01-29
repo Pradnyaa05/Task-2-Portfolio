@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.about{
+    font-size: 30px;
+}
+.moreabout{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    font: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: black;
+}
+.btn:hover{
+    background-color: slategrey;
+    color: black;
+}
+.info{
+    justify-content: center;
+    margin: 120px 100px ;
+}
+.img{
+   margin-left: 700px;
+   width: 80vh;
+   float: right;
+   position: absolute;
+}
+.icon{
+    display: grid;
+}
+.skills{
+    margin:130px 100px ;
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.title2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.discription{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.list{
+    font-size: 25px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+}
+.details{
+    font-size: 20px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+    width: 30%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px slategrey;
+}
+
+.project-details {
+    padding: 20px;
+}
+
+h3, p {
+    margin: 0;
+}
+
